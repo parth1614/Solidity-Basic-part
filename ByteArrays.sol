@@ -7,6 +7,8 @@
      //Byte arrays are immutable in nature
      //Byte arrays are static in nature
      
+     //Padding of zeros(0) is added at the end, if the value(by which the array is initialized) does not fill up the full size
+     
     bytes2 public b1; //array of size 2 bytes
     bytes3 public b2; //array of size 3 bytes
     
