@@ -13,4 +13,12 @@
      function changeElement(uint index, uint elem) public{
          arr[index] = elem;
      }
+     
+     function popElement() public{
+         arr.pop();
+     }
+     
+     function len() view public returns(uint){
+         return arr.length;
+     }
  }
