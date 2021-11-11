@@ -15,7 +15,7 @@
      }
      
      function popElement() public{
-         arr.pop();
+         arr.pop();  //it pops out the last element
      }
      
      function len() view public returns(uint){
