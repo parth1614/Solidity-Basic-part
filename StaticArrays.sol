@@ -10,4 +10,8 @@
          
          arr[index] = val;  //setting the new value of array element of a particular index 
      }
+     
+     function len() view public returns(uint){
+         return arr.length;
+     }
  }
